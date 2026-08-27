@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #121212;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* The Inter font will be applied via Next.js next/font in layout.tsx, but setting fallback here */
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for a cleaner experience but keep functionality */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
